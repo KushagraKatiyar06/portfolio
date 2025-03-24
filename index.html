@@ -1,100 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href = "styles.css">
+    <title>Kushagra Katiyar | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
-        <h1>Kushagra Katiyar's Portfolio</h1>
+        <div class="header-content">
+            <img src="images/Headshot.jpg" alt="Kushagra Katiyar" class="headshot">
+            <h1>Kushagra Katiyar</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle">
+            <span id="themeToggle">Dark Mode</span>
+        </div>
     </header>
-    <div class = "theme-container">
-        <span id="themeToggle" class="themeToggle">Dark</span>
-    </div>
-    <section id="intro" class="about">
+
+    <section id="about" class="container">
         <h2>About Me</h2>
-        <hr>
-        <p>Hey! I'm Kushagra Katiyar, and I am an aspiring software engineer. </p>
+        <p>Hello! I'm Kushagra Katiyar, an aspiring software engineer passionate about AI, web development, and UI/UX
+            design.</p>
     </section>
-    <section id="education" class = "education">
+
+    <section id="education" class="container">
         <h2>Education</h2>
-        <hr>
-        <div>
-            <p>- Student at University of Florida: Bachelors in Science in Computer Science with a Statistics Minor</p>
-            <p>- Relevant Coursework: Programming Fundamentals 1, Business Analytics and AI</p>
-            <p>- Member of Gator Motorsports, UF Association for Computing Machinery </p>
-            <p>- National Finalists in Ui/Ux Design (Business Professionals of America Anaheim Conference)</p>
-        </div>
+        <p><strong>University of Florida</strong> – Bachelor of Science in Computer Science (4.0 GPA)</p>
+        <p>Relevant Coursework: Programming Fundamentals 1 & 2, Business Analytics & AI, Programming with Data in R</p>
     </section>
-    <section id = "skills" class = "skills">
-        <h2>Skills</h2>
-        <hr>
-        <div>
-            <p>- 5+ years of proficency with PC troubleshooting  (Hardware/Software) </p>
-            <p>- 2+ Years of experience in programming Java, Javascript
-            <p>- Currently learning Python</p>
-            <p>- Experience in PyCharm, InteliJ, and JupyterLabs</p>
-            <p>- 5+ years of experience with Davinci Resolve, Adobe Premiere Pro</p>
-            <p>- Certified in Abobe inDesign and Adobe Photoshop</p>
-            <p>- Experience in Canva and Adobe XD</p>
-            <p>- Fluent in English, Hindi, and Spanish</p>
-        </div>
-    </section>
-    <section id = "workexperience" class = "workexperience">
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="container">
         <h2>Work Experience</h2>
-        <hr>
-        <div class = "work" class = "work">
-            <h3>Web Developer / Videographer Intern, KickStandLLC [5/23 to 7/23]</h3>
-            <p>- Worked on company website: landing page for advertising the company app</p>
-            <p>- Utilized HTML, Javascript, and CSS </p>
-            <p>- Edited company videos and published them on social medias</p>
-            <p>- Created video essays from scratch and published them on company youtube channel</p>
-            <p>- Created graphics and promotional art material for company</p>
-            <p>KickStandLLC Website: https://www.kickstandtech.com/space-launch-schedule-app/
-            </p>
-            <h3>Twitch Affilliate, Twitch (Amazon) [12/20 to 7/21]</h3>
-            <p>- Live Streamed on Twitch to average of 25 viewers, peaked at 40 concurrent viewers</p>
-            <p>- Hired staff of people to moderate and run community events</p>
-            <p>- Regulated social media brand on platforms such as Discord, Youtube and Twitter</p>
-            <p>- Designed and created original graphics and promotional material for brand</p>
-            <p>- Entertained audience with vibrant personality and gameplay</p>
-            <p>- Accumulated $250+ through fan donations and generated $400+ through twitch subscriptions</p>
 
-            <h3>VFX Freelancer, Fiverr [12/20 to 7/21]</h3>
-            <p>- Completed 10+ orders of videos edited as per customer requests</p>
-            <p>- Communicated with customers, negotiated costs of service, and delivered videos on time</p>
-            <p>- Every order was a professional, well edited composition, edited on Davinci Resolve</p>
-            <p>- Accumulated 100+ dollars through orders</p>
-        </div>
+        <h3>Software Engineer | English2Success</h3>
+        <p>Dec 2024 – Present</p>
+        <ul>
+            <li>Developed a Google Sheets API integration to automate tutor session tracking.</li>
+            <li>Built a Tutor class to dynamically process session data, eliminating manual entry.</li>
+            <li>Implemented an AI-powered summarization tool for tutor feedback analysis.</li>
+        </ul>
 
+        <h3>UI/UX Designer | UF Computing Student Union</h3>
+        <p>Dec 2024 – Present</p>
+        <ul>
+            <li>Designed wireframes and prototypes for a student club portal.</li>
+            <li>Optimized UI components for accessibility, responsiveness, and performance.</li>
+            <li>Integrated Shadcn components for a modern design system.</li>
+        </ul>
+
+        <h3>Software Developer | The GAITOR Club</h3>
+        <p>Dec 2024 – Present</p>
+        <ul>
+            <li>Designed and trained a CNN model using TensorFlow & Keras to recognize ASL gestures (A-Z, 0-9).</li>
+            <li>Developed a real-time webcam interface using OpenCV for continuous gesture recognition.</li>
+            <li>Implemented an AI-powered summarization tool for tutor feedback analysis.</li>
+        </ul>
+
+        <h3>Web Developer / Videographer Intern | KickStandLLC</h3>
+        <p>May 2023 – July 2023</p>
+        <ul>
+            <li>Developed a landing page for a company app using HTML, CSS, and JavaScript.</li>
+            <li>Produced and edited promotional videos for social media and YouTube.</li>
+            <li>Designed marketing graphics and UI assets.</li>
+        </ul>
+
+        <h3>Twitch Affiliate | Twitch (Amazon)</h3>
+        <p>Jan 2021 – Mar 2021</p>
+        <ul>
+            <li>Grew a live-streaming channel to 40+ concurrent viewers.</li>
+            <li>Managed a team of moderators to enhance viewer engagement.</li>
+            <li>Generated $400+ in Twitch subscriptions and $250+ in donations.</li>
+        </ul>
+
+        <h3>VFX Freelancer | Fiverr</h3>
+        <p>Dec 2021 – July 2022</p>
+        <ul>
+            <li>Generated $100 in orders</li>
+            <li>Edited 10+ videos as per customer requests</li>
+            <li>Communicated with customers, negotiated costs of service, and delivered videos on time.</li>
+            <li>Every order was a professional, well-edited composition, edited on DaVinci Resolve.</li>
+        </ul>
     </section>
-    <section id = "projects" class = "projects">
-        <h2>My Projects</h2>
-        <hr>
-        <div class = "project">
-           <h3>Sample Amusement Park UI/UX for Website and App + Social Media Campaign</h3>
-            <p>This project was for a BPA competition in which the prompt required a proper website landing page with 4-5 working links to other pages. 
-                The prompt also required a mobile app demo which allows many of the functionalities of the website to be accessible on the mobile app. Finally 
-                a social media campaign was required with examples of instagram posts and tiktok videos which would generate good advertising and hype for the amusement park. 
-                Overall this project was very successful as we placed first in the regional and state levels, becoming finalists at the national level. The graphics
-                were designed using Canva and the UI demonstration of the app and website were made on Adobe XD.
-                <p>**Links**</p>
-                <p>Video Demo of App UI: https://drive.google.com/file/d/1zIxfshiOKBDSoF5gFmv67yKvIQCZ_PEw/view?usp=sharing</p>
-                <p>Video Demo of Website UI: https://drive.google.com/file/d/1pmq9rNdMbGeNUN5runhfC8y9Qe6Iu-QQ/view?usp=sharing</p>
 
-            <h3>BlackJack Game (Python)</h3>
-            </p>Simple BlackJack game developed in Python on Pycharm implemented using, state tracking, console input systems, data types,
-            console I/O, control structures and modules. The game offers a menu system with card dealing, holding and print statistic options.
-            Game offeres statistic options such as: winrate, number of wins, number of loses and the game number.
-        </div>
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+
+        <h3>AI Blog Generator</h3>
+        <ul>
+            <li>Developed an automated SEO blog generator using DeepSeek API and SerpAPI.</li>
+            <li>Implemented modular agents for research, content creation, SEO, and proofreading.</li>
+        </ul>
+
+        <h3>Computer Vision Sign Language Detection</h3>
+        <ul>
+            <li>Built a deep-learning model to detect ASL gestures in real-time.</li>
+            <li>Used TensorFlow, Keras, and OpenCV for training and video processing.</li>
+        </ul>
+
+        <h3>Election Polling Data Rankings (Hackathon Project)</h3>
+        <ul>
+            <li>Ranked 2020 and 2024 polling companies based on statistical accuracy.</li>
+            <li>Used Altair (Python) for an interactive residual plot and hosted on HTML, CSS, and JavaScript.</li>
+        </ul>
+
+        <h3>Amusement Park UI/UX & Marketing Campaign (BPA Competition)</h3>
+        <ul>
+            <li>Designed a website landing page with multiple working links and a mobile app demo for seamless user
+                experience.</li>
+            <li>Developed a social media campaign with Instagram posts and TikTok videos to drive engagement.</li>
+            <li>Placed 1st at regional and state levels, earning national finalist recognition.</li>
+            <li>Created UI/UX designs using Adobe XD and graphics with Canva to ensure a polished, user-friendly
+                interface.</li>
+        </ul>
     </section>
-    <section id="contact" class = "contact">
+
+    <section id="contact" class="container">
         <h2>Contact</h2>
-        <hr>
-        <p>You can reach me at <a href="mailto:k.katiyar2006.com">k.katiyar2006@gmail.com <a<p>
+        <p>Email: <a href="mailto:k.katiyar2006@gmail.com">k.katiyar2006@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/kushagrakatiyar">linkedin.com/in/kushagrakatiyar</a></p>
+        <p>GitHub: <a href="https://github.com/KushagraKatiyar06r">GitHub</a></p>
     </section>
+
+    <section id="carousel" class="container">
+        <h2>Gallery</h2>
+        <!-- Carousel Section -->
+        <div class="carousel">
+            <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+            <div class="carousel-images">
+                <img src="images/hoco.jpg" alt="Hoco" class="carousel-item">
+                <img src="images/prom1.jpg" alt="Prom 1" class="carousel-item">
+                <img src="images/headshot.jpg" alt="Headshot" class="carousel-item">
+                <img src="images/band.jpg" alt="Band" class="carousel-item">
+                <img src="images/chicago.jpg" alt="Chicago" class="carousel-item">
+            </div>
+            <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
     <script src="script.js"></script>
 </body>
+
 </html>
